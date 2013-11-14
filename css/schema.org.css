@@ -1,0 +1,151 @@
+@import url('fonts.css');
+
+/**
+ * General keydown styling.
+ */
+body {
+	overflow: hidden;
+}
+
+/* Turn off deck.js navigation */
+.keydown.deck-prev-link,
+.keydown.deck-next-link {
+    display: none;
+}
+
+/*Turn off deck.js status */
+.deck-status {
+    display: none;
+}
+
+.deck-container.keydown section {
+	border: 1px solid #000;
+}
+
+.keydown.deck-container,
+.keydown.deck-container .slide,
+.deck-container .slide {
+  background: #090909;
+}
+
+/**
+ * Heading styling
+ */
+.keydown.deck-container h1,
+.keydown.deck-container h2,
+.keydown.deck-container h3
+ {
+  font-family: "Raleway", "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+
+.keydown.deck-container h2 {
+  color: #61D8a2;
+  border-bottom-color: #ccc;
+}
+
+.keydown.deck-container h3 {
+  color: #f16c97;
+  font-weight: 100;
+}
+
+/**
+ * General styles
+ */
+
+.keydown.deck-container {
+	color: #efefef;
+}
+
+.keydown.deck-container pre {
+    border-color: #ccc;
+}
+
+.keydown.deck-container code {
+    color: #888;
+}
+
+.keydown.deck-container ul {
+	list-style-type: none;
+}
+
+.keydown.deck-container blockquote {
+	color: #efefef;
+	border-left: 4px solid #61d8a2;
+	padding: 0 0.5em;
+	margin: 1em 3em;
+}
+
+.keydown.deck-container blockquote p {
+	padding: 0.5em 0;
+}
+
+.keydown.deck-container blockquote a {
+	color: #aa2a53;
+}
+
+.keydown.deck-container a,
+.keydown.deck-container a:hover,
+.keydown.deck-container a:visited {
+	color: #f16c97;
+	border-bottom: 1px dashed #ccc;
+}
+
+.tipno {
+    background: #61d8a2;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: #000;
+    text-shadow: 0px 0px 2px #fff;
+    font-weight: bold;
+    font-family: 'Frijole', cursive !important;
+}
+
+.tipno:before, .tipno:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: #61d8a2;
+    z-index: -2;
+}
+.tipno:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+.tipno:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
+/**
+ * Styling for pages with full backgrounds
+ */
+.keydown.deck-container .slide.full-background h1,
+.keydown.deck-container h1 {
+  color: #efefef;
+}
+
+/**
+ * Page specific styles
+ */
+section.slide.title h1 {
+	text-align: center;
+	color: #DDFB3F;
+}
+
+section.slide.title h2 {
+	text-align: center;
+	color: #efefef;
+}
