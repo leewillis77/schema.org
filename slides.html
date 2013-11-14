@@ -58,8 +58,8 @@
       <div class='spacer top'></div>
       <div class='content'>
         <ul>
-        <li>Allows search engines to understand content better</li>
-        <li>Used by Google to enhance search engine results</li>
+        <li>Allows search engines to <strong>understand</strong> content better</li>
+        <li>Used by Google to <strong>enhance</strong> search engine results</li>
         </ul>
       </div>
       <div class='spacer bottom'></div>
@@ -75,8 +75,18 @@
       <div class='spacer top'></div>
       <div class='content'>
         <ul>
-        <li>Increased clickthroughs - "better" listing / more info for users</li>
-        <li>Better understanding of relevance &raquo; better ranking?</li>
+        <li>"better" listing / more info for users
+        
+        <ul>
+        <li>&raquo; Increased clickthroughs</li>
+        </ul>
+        </li>
+        <li>Better understanding of relevance
+        
+        <ul>
+        <li>&raquo; better ranking?</li>
+        </ul>
+        </li>
         </ul>
       </div>
       <div class='spacer bottom'></div>
@@ -84,8 +94,13 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><img src="images/ecom-without.png" alt="Without rich snippets" />
-        <img src="images/ecom-with.png" alt="With rich snippets" /></p>
+        <h3>Before</h3>
+        
+        <p><img src="images/ecom-without.png" alt="Without rich snippets" /></p>
+        
+        <h3>After</h3>
+        
+        <p><img src="images/ecom-with.png" alt="With rich snippets" /></p>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -122,7 +137,7 @@
       <div class='spacer top'></div>
       <div class='content'>
         <ul>
-        <li>It's a "zero"-cost feature if you build it in by default</li>
+        <li>It's a "zero-cost" feature if you build it in by default</li>
         <li>Just simple changes to the markup</li>
         </ul>
       </div>
@@ -137,33 +152,96 @@
       </div>
       <div class='spacer bottom'></div>
     </section>
-    <section class='full-background slide tullie-page'>
+    <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Data to be marked up</h2>
         
-      </div>
-      <div class='spacer bottom'></div>
-    </section>
-    <section class='full-background slide tullie-page-markedup'>
-      <div class='spacer top'></div>
-      <div class='content'>
-        
+        <p><img src="images/tullie-page.png" alt="Tullie house events page" /></p>
       </div>
       <div class='spacer bottom'></div>
     </section>
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode='html'><div id="feature-heading">&#x000A;  <h1 itemprop="name">Winter Wedding Offer</h1>&#x000A;</div>&#x000A;<div id="content" class="span8 col">&#x000A;  <div class="block block-system odd" id="block-system-main">&#x000A;	<div id="node-2360" class="node node-event">&#x000A;	  <img src="http://www.tulliehouse.co.uk/sites/default/files/styles/300/public/event_images/winterweddingoffer.jpg?itok=TKa7b4js" alt="" itemprop="image">&#x000A;	  <p class="date"><strong>Date:</strong><br /><span itemprop="startDate" content="2013-11-01">1st November 2013</span> - <span itemprop="endDate" content="2014-03-31">31st March 2014</span></p>&#x000A;	  <div class="location field" itemprop="location" itemscope itemtype="http://schema.org/Place">&#x000A;	    Garden Restaurant&#x000A;	    <div class="hidden" itemprop="name">Tullie House Museum &amp; Art Gallery Trust.</div>&#x000A;	    <div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">&#x000A;	      <span itemprop="streetAddress">Castle Street</span>,<br />&#x000A;	      <span itemprop="addressLocality">Carlisle</span>,<br />&#x000A;	      <span itemprop="addressRegion">Cumbria</span>,<br />&#x000A;	      <span itemprop="postalCode">CA3 8TP</span>&#x000A;	    </div>&#x000A;	  </div>&#x000A;	</div>&#x000A;  </div>&#x000A;</div></textarea>
-    </p>
+        <h2>Mapped to schema.org</h2>
+        
+        <p><img src="images/tullie-page-markedup.png" alt="Annotated screenshot showing schema.org mappings" /></p>
       </div>
       <div class='spacer bottom'></div>
     </section>
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode='html'><div id="entity-wrapper" itemscope itemtype="http://schema.org/Event">&#x000A;  <div id="feature-heading">&#x000A;    <h1 itemprop="name">Winter Wedding Offer</h1>&#x000A;  </div>&#x000A;  <div id="content" class="span8 col">&#x000A; 		<div class="block block-system odd" id="block-system-main">&#x000A;      <div id="node-2360" class="node node-event">&#x000A;        <img src="http://www.tulliehouse.co.uk/sites/default/files/styles/300/public/event_images/winterweddingoffer.jpg?itok=TKa7b4js" alt="" itemprop="image">&#x000A;        <p class="date"><strong>Date:</strong><br /><span itemprop="startDate" content="2013-11-01">1st November 2013</span> - <span itemprop="endDate" content="2014-03-31">31st March 2014</span></p>&#x000A;        <div class="location field" itemprop="location" itemscope itemtype="http://schema.org/Place">&#x000A;          Garden Restaurant&#x000A;          <div class="hidden" itemprop="name">Tullie House Museum &amp; Art Gallery Trust.</div>&#x000A;          <div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">&#x000A;            <span itemprop="streetAddress">Castle Street</span>,<br />&#x000A;            <span itemprop="addressLocality">Carlisle</span>,<br />&#x000A;            <span itemprop="addressRegion">Cumbria</span>,<br />&#x000A;            <span itemprop="postalCode">CA3 8TP</span>&#x000A;          </div>&#x000A;        </div>&#x000A;      </div>&#x000A;    </div>&#x000A;  </div>&#x000A;</div></textarea>
-    </p>
+        <h2>Normal markup</h2>
+        
+        <p><img src="images/before.png" alt="HTML source before schema.org markup" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>The task</h2>
+        
+        <ul>
+        <li>Wrap entities (Event, Place, Postal Address)</li>
+        <li>&lt;div itemscope itemtype="http://schema.org/Event"&gt;</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <ul>
+        <li>Wrap properties</li>
+        <li>&lt;h1 itemprop="name"&gt;</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <ul>
+        <li>Add a (Hidden) address</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <ul>
+        <li>Entities can be nested</li>
+        <li>Event &raquo; Place &raquo; Postal address</li>
+        <li>Sub-entities can occur more than once per-item</li>
+        <li>Entities can occur more than once per page</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>With schema.org markup</h2>
+        
+        <p><img src="images/after.png" alt="HTML source with schema.org markup" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/results-before.png" alt="Results - before" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/results-after.png" alt="Results - after" /></p>
       </div>
       <div class='spacer bottom'></div>
     </section>

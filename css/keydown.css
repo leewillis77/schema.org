@@ -1,4 +1,4 @@
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
 /* Reset deck.core.css */
 .keydown.deck-container h1 {
   font-weight: normal;
@@ -104,10 +104,6 @@ body {
       -moz-box-pack: start;
       -ms-box-pack: start;
       box-pack: start; }
-      .keydown.deck-container .slide.full-background.tullie-page {
-        background-image: url(../images/tullie-page.png); }
-      .keydown.deck-container .slide.full-background.tullie-page-markedup {
-        background-image: url(../images/tullie-page-markedup.png); }
       .keydown.deck-container .slide.full-background h1 {
         display: inline;
         position: absolute;

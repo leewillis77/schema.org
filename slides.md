@@ -19,8 +19,8 @@
 
 !SLIDE
 
-* Allows search engines to *understand* content better
-* Used by Google to enhance search engine results
+* Allows search engines to **understand** content better
+* Used by Google to **enhance** search engine results
 
 !SLIDE
 
@@ -28,12 +28,16 @@
 
 !SLIDE
 
-* Increased clickthroughs - "better" listing / more info for users
-* Better understanding of relevance &raquo; better ranking?
+* "better" listing / more info for users
+    * &raquo; Increased clickthroughs
+* Better understanding of relevance
+    * &raquo; better ranking?
 
 !SLIDE
 
+### Before
 ![Without rich snippets](images/ecom-without.png)
+### After
 ![With rich snippets](images/ecom-with.png)
 
 !SLIDE
@@ -54,7 +58,7 @@
 
 !SLIDE
 
-* It's a "zero"-cost feature if you build it in by default
+* It's a "zero-cost" feature if you build it in by default
 * Just simple changes to the markup
 
 !SLIDE
@@ -64,66 +68,52 @@
 
 !SLIDE
 
-}}} images/tullie-page.png
+## Data to be marked up
+
+![Tullie house events page](images/tullie-page.png)
 
 !SLIDE
 
-}}} images/tullie-page-markedup.png
+## Mapped to schema.org
+
+![Annotated screenshot showing schema.org mappings](images/tullie-page-markedup.png)
 
 !SLIDE
 
-``` html
-<div id="feature-heading">
-  <h1 itemprop="name">Winter Wedding Offer</h1>
-</div>
-<div id="content" class="span8 col">
-  <div class="block block-system odd" id="block-system-main">
-	<div id="node-2360" class="node node-event">
-	  <img src="http://www.tulliehouse.co.uk/sites/default/files/styles/300/public/event_images/winterweddingoffer.jpg?itok=TKa7b4js" alt="" itemprop="image">
-	  <p class="date"><strong>Date:</strong><br /><span itemprop="startDate" content="2013-11-01">1st November 2013</span> - <span itemprop="endDate" content="2014-03-31">31st March 2014</span></p>
-	  <div class="location field" itemprop="location" itemscope itemtype="http://schema.org/Place">
-	    Garden Restaurant
-	    <div class="hidden" itemprop="name">Tullie House Museum &amp; Art Gallery Trust.</div>
-	    <div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-	      <span itemprop="streetAddress">Castle Street</span>,<br />
-	      <span itemprop="addressLocality">Carlisle</span>,<br />
-	      <span itemprop="addressRegion">Cumbria</span>,<br />
-	      <span itemprop="postalCode">CA3 8TP</span>
-	    </div>
-	  </div>
-	</div>
-  </div>
-</div>
-```
-
+## Normal markup
+![HTML source before schema.org markup](images/before.png)
 
 !SLIDE
 
-``` html
-<div id="entity-wrapper" itemscope itemtype="http://schema.org/Event">
-  <div id="feature-heading">
-    <h1 itemprop="name">Winter Wedding Offer</h1>
-  </div>
-  <div id="content" class="span8 col">
- 		<div class="block block-system odd" id="block-system-main">
-      <div id="node-2360" class="node node-event">
-        <img src="http://www.tulliehouse.co.uk/sites/default/files/styles/300/public/event_images/winterweddingoffer.jpg?itok=TKa7b4js" alt="" itemprop="image">
-        <p class="date"><strong>Date:</strong><br /><span itemprop="startDate" content="2013-11-01">1st November 2013</span> - <span itemprop="endDate" content="2014-03-31">31st March 2014</span></p>
-        <div class="location field" itemprop="location" itemscope itemtype="http://schema.org/Place">
-          Garden Restaurant
-          <div class="hidden" itemprop="name">Tullie House Museum &amp; Art Gallery Trust.</div>
-          <div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress">Castle Street</span>,<br />
-            <span itemprop="addressLocality">Carlisle</span>,<br />
-            <span itemprop="addressRegion">Cumbria</span>,<br />
-            <span itemprop="postalCode">CA3 8TP</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-```
+## The task
+
+* Wrap entities (Event, Place, Postal Address)
+* &lt;div itemscope itemtype="http://schema.org/Event"&gt;
+
+!SLIDE
+
+* Wrap properties
+* &lt;h1 itemprop="name"&gt; 
+
+!SLIDE
+* Add a (Hidden) address 
+
+!SLIDE
+* Entities can be nested
+* Event &raquo; Place &raquo; Postal address
+* Sub-entities can occur more than once per-item
+* Entities can occur more than once per page
+
+!SLIDE
+
+## With schema.org markup
+![HTML source with schema.org markup](images/after.png)
+
+!SLIDE
+![Results - before](images/results-before.png)
+
+!SLIDE
+![Results - after](images/results-after.png)
 
 
 !SLIDE

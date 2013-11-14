@@ -8,6 +8,10 @@ body.deck-container {
 	overflow: hidden;
 }
 
+section {
+  min-height: 760px;
+}
+
 .keydown.deck-container h2,
 .keydown.deck-container h3,
 .keydown.deck-container h4,
@@ -16,6 +20,11 @@ body.deck-container {
 .keydown.deck-container li {
   font-family: "Raleway", "Helvetica Neue", sans-serif;
   text-align: center;
+}
+
+.CodeMirror {
+  text-align: left;
+  font-size: x-small;
 }
 
 .keydown.deck-container ul {
