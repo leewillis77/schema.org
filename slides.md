@@ -19,7 +19,7 @@
 
 !SLIDE
 
-* Allows search engines to understand content better
+* Allows search engines to *understand* content better
 * Used by Google to enhance search engine results
 
 !SLIDE
