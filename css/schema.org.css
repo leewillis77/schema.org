@@ -60,6 +60,10 @@ section {
   text-align: center;
 }
 
+.keydown.deck-container h1 {
+  margin-bottom: 0.5em;
+}
+
 .keydown.deck-container .slide.full-background h1 {
 	top: 0.2em;
 	left: 0;

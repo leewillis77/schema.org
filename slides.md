@@ -17,8 +17,6 @@
 
 # Why bother?
 
-!SLIDE
-
 * Allows search engines to **understand** content better
 * Used by Google to **enhance** search engine results
 
@@ -28,10 +26,10 @@
 
 !SLIDE
 
-* "better" listing / more info for users
+* Better listing / more info for users
     * &raquo; Increased clickthroughs
 * Better understanding of relevance
-    * &raquo; better ranking?
+    * &raquo; Better ranking?
 
 !SLIDE
 
@@ -42,7 +40,7 @@
 
 !SLIDE
 
-* Google offers enhanced listings for:
+# Enhanced SERP listings for
 * Breadcrumb navigation
 * Products&nbsp;&nbsp;&nbsp;Reviews
 * Events&nbsp;&nbsp;&nbsp;&nbsp;People&nbsp;&nbsp;&nbsp;&nbsp;Recipes
@@ -105,8 +103,11 @@
 * Entities can occur more than once per page
 
 !SLIDE
+## From this
+![HTML source before schema.org markup](images/before.png)
 
-## With schema.org markup
+!SLIDE
+## To this
 ![HTML source with schema.org markup](images/after.png)
 
 !SLIDE
@@ -117,6 +118,6 @@
 
 
 !SLIDE
-# Thank you for listening
-## Lee Willis - @leewillis77
-### [github.com/leewillis77/26-things](https://github.com/leewillis77/26-things)
+# Go forth, and
+# mark up your metadata
+## [http://schema.org](http://schema.org)
