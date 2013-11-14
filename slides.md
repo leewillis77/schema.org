@@ -9,12 +9,10 @@
 
 # What is schema.org?
 
-!SLIDE
-
 * A set of semantic markup guidelines
 * Markup conventions
 * Shared guidelines by "the search engines"
-    * Including Google
+* (Including Google)
 
 !SLIDE
 
@@ -41,14 +39,15 @@
 
 !SLIDE
 
-* Google claim enhanced listings for:
-    * Products
-    * Reviews
-    * Events
-    * Breadcrumb navigation
-    * People
-    * Recipes
+* Google offers enhanced listings for:
+* Breadcrumb navigation
+* Products&nbsp;&nbsp;&nbsp;Reviews
+* Events&nbsp;&nbsp;&nbsp;&nbsp;People&nbsp;&nbsp;&nbsp;&nbsp;Recipes
+
+!SLIDE
+
 * Many other types defined at schema.org
+* Not clear if/when they'll do anything interesting
 
 !SLIDE
 
