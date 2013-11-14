@@ -9,10 +9,9 @@
 
 # What is schema.org?
 
-* A set of semantic markup guidelines
-* Markup conventions
 * Shared guidelines by "the search engines"
 * (Including Google)
+* Guidelines for semantic markup
 
 !SLIDE
 
