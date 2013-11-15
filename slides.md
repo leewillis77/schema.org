@@ -35,6 +35,8 @@
 
 ### Before
 ![Without rich snippets](images/ecom-without.png)
+
+!SLIDE 
 ### After
 ![With rich snippets](images/ecom-with.png)
 
@@ -111,11 +113,12 @@
 ![HTML source with schema.org markup](images/after.png)
 
 !SLIDE
+## From this
 ![Results - before](images/results-before.png)
 
 !SLIDE
+## To this
 ![Results - after](images/results-after.png)
-
 
 !SLIDE
 # Go forth, and
