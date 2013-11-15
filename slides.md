@@ -44,8 +44,11 @@
 
 # Enhanced SERP listings for
 * Breadcrumb navigation
-* Products&nbsp;&nbsp;&nbsp;Reviews
-* Events&nbsp;&nbsp;&nbsp;&nbsp;People&nbsp;&nbsp;&nbsp;&nbsp;Recipes
+* Products
+* Reviews
+* Events
+* People
+* Recipes
 
 !SLIDE
 

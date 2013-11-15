@@ -32,8 +32,8 @@ section {
 }
 
 /* Turn off deck.js navigation */
-.deck-prev-link,
-.deck-next-link {
+.deck-container.deck-prev-link,
+.deck-container.deck-next-link {
     display: none;
 }
 
