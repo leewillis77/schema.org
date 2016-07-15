@@ -46,14 +46,16 @@
 !SLIDE
 
 ## Better listing
-<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+### <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
 ## More information for users
-<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+### <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
 ## More clickthroughs
 
 !SLIDE
 
-* Better understanding of relevance » Better ranking?
+## Better understanding of relevance
+### <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+##Better ranking?
 
 !SLIDE
 
