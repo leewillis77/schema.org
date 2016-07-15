@@ -2,34 +2,58 @@
 
 !SLIDE title
 
-# Schema.org
-## Rich snippets FTW!
+## Structured data FTW!
+
+![](https://secure.gravatar.com/avatar/2e1cc93e1c8d7f61ca97433e520901d7?s=96&d=mm&r=g)
+@leewillis77
 
 !SLIDE
 
 # What is schema.org?
 
-* Shared guidelines by "the search engines"
-* (Including Google)
+* Shared (open) guidelines by "the search engines"
+* (including Google)
+
+!SLIDE 
+
+# What is schema.org?
+
 * Guidelines for semantic markup
+* Semantic in the real-world sense
+
+!SLIDE
+# HTML
+## "This is a paragraph"
+## &nbsp;
+
+!SLIDE
+# HTML + schema.org markup
+## "This is a paragraph
+## **and** it is a product description"
 
 !SLIDE
 
-# Why bother?
+# So why bother?
+
+!SLIDE
 
 * Allows search engines to **understand** content better
-* Used by Google to **enhance** search engine results
 
 !SLIDE
 
-# So what?
+* Used by Google (and Bing) to **enhance** search engine results
 
 !SLIDE
 
-* Better listing / more info for users
-    * &raquo; Increased clickthroughs
-* Better understanding of relevance
-    * &raquo; Better ranking?
+## Better listing
+<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+## More information for users
+<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+## More clickthroughs
+
+!SLIDE
+
+* Better understanding of relevance » Better ranking?
 
 !SLIDE
 
@@ -131,3 +155,5 @@
 # Go forth, and
 # mark up your metadata
 ## [http://schema.org](http://schema.org)
+
+https://developers.google.com/search/docs/guides/search-gallery

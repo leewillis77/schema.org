@@ -187,7 +187,11 @@ section {
  */
 section.slide.title h1 {
 	text-align: center;
-	color: #DDFB3F;
+	color: #FFB2B2;
+}
+
+section.slide.title img {
+	border-radius: 50%;
 }
 
 section.slide.title h2 {
