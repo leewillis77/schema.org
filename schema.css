@@ -1,0 +1,59 @@
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+h1, h3 {
+  font-family: Impact;
+  font-weight: bold;
+  font-style: italic;
+}
+
+pre code {
+  color: #ccc;
+  font-size: 140%;
+}
+
+.slide {
+  background-color: inherit;
+}
+
+.keyword {
+  color: #0086b3 !important;
+  font-weight: inherit !important;
+}
+
+.tag {
+  color: #900 !important;
+}
+
+code {
+  background-color: inherit;
+}
+
+em {
+  border-bottom: 1px solid #666;
+}
+
+/* Local customisations */
+
+.slide-content {
+    font-size: 250%;
+    width: 1024px;
+}
+.slide-content img {
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    margin-top: 0.2em;
+}
+
+ul {
+    line-height: 1.8;
+}
+small.sublist {
+    color: #bbb;
+    font-size: 65%;
+}
