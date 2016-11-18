@@ -1,0 +1,64 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "MyHillBlog",
+        "url": "https://myhillblog.co.uk"
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "@id": "https://myhillblog.co.uk",
+        "name": "MyHillBlog",
+        "url": "https://myhillblog.co.uk",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://myhillblog.co.uk/img/social-logo-medium.jpg"
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://myhillblog.co.uk/walk/1f8c7ec1-84a3-4381-9760-1416d13188ae"
+        },
+        "headline": "Barrow & Stile End",
+        "description": "Our first double-hill walk, a really quite pleasant walk from Braithwaite up to Barrow, across to Stile End and back.",
+        "datePublished": "2016-10-07T21:59:22+0100",
+        "dateModified": "2016-10-08T09:31:56+0100",
+        "author": {
+            "@type": "Person",
+            "name": "Team Willis"
+        },
+        "publisher": {
+            "@id": "https://myhillblog.co.uk"
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://d38n7hu63rdb7k.cloudfront.net/1f8c7ec1-84a3-4381-9760-1416d13188ae/photo-49-large.jpeg",
+            "width": 2048,
+            "height": 2048
+        },
+        "contentLocation": [
+            {
+                "@type": "Mountain",
+                "name": "Barrow",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 54.58566,
+                    "longitude": -3.19752
+                }
+            },
+            {
+                "@type": "Mountain",
+                "name": "Stile End",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 54.586425,
+                    "longitude": -3.2074
+                }
+            }
+        ]
+    }
+]
