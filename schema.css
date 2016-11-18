@@ -40,6 +40,7 @@ em {
 .slide-content {
     font-size: 250%;
     width: 1024px;
+    margin: 120px auto 0 auto;
 }
 .slide-content img {
     margin: 0 auto;
@@ -53,7 +54,14 @@ h1 {
 ul {
     line-height: 1.8;
 }
-small.sublist {
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #aaa;
+}
+
+small {
     color: #bbb;
     font-size: 65%;
 }
