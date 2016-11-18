@@ -1,62 +1,57 @@
 title: "Schema.org : Structured data FTW"
-author:
-  name: Lee Willis
-  twitter: leewillis77
-  url: https://www.ademti-software.co.uk
 style: schema.css
 output: schema.html
 
 --
 # Schema.org
 ## Structured data FTW!
-&nbsp;  
+<hr>  
 ## @leewillis77
-##[www.ademti-software.co.uk](https://www.ademti-software.co.uk)
-##[plugins.leewillis.co.uk](https://plugins.leewillis.co.uk)
+## Freelance software developer
+## <small>(WordPress / Laravel / Drupal)</small>
+##[www.ademti-software.co.uk](https://www.ademti-software.co.uk) / [plugins.leewillis.co.uk](https://plugins.leewillis.co.uk)
 
 --
 ### Before we start &hellip;
 * This is an SEO-related talk *but* I am not an SEO "expert"
 * I am a backend developer *but* this is not a "dev" talk
-* It's not WordPress-specific &hellip;
+* It's also not WordPress-specific &hellip;
 
 --
 ### What is schema.org ?
 
 * Shared guidelines for semantic markup
 * How to mark-up / tag certain content
-* HTML doesn't give enough context
+* Needed because HTML doesn't give enough context
 
 --
-* We have
+### But HTML5 is semantic ?
+* Sort of ... we have
     * <code>&lt;nav&gt;</code>
     * <code>&lt;article&gt;</code>
     * <code>&lt;section&gt;</code>
-    * &hellip;
 
 --
-*  but no
+### However ...
+* We don't have
     * <code>&lt;product&gt;</code>
     * <code>&lt;event&gt;</code>
     * <code>&lt;rating&gt;</code>
+    * <code>&lt;mountain&gt;</code>
 
 --
 # So what ?
 
 --
+### #theory
 * Semantic markup helps search engines **understand**
 * Can do smarter stuff with it
 
 --
-# Why should<br>*you* care ?
-
---
+### #reallife
 * Used by Google to enhance search results
-* Better listing
-    * richer information for users
-    * increased clickthroughs
-* Better understanding of relevance
-    * better ranking?
+* Better listing &#8674; better for users &#8674; more clicks
+* Better ranking?
 
 --
 # Better listings ?
@@ -71,38 +66,33 @@ output: schema.html
 
 --
 
-# Events
-![Events](images/events.png)
-
---
-
 # Recipes
 ![Recipes](images/recipes.png)
 
 --
 
+# Events
+![Events](images/events.png)
+
+--
+
+### Let's get semantic &hellip;
 * 583 data types defined at schema.org
-* Some examples
-    * CreativeWork <small class="sublist">(Article, Book, Movie, Episode)</small>
-    * Event <small class="sublist">(BusinessEvent, ComedyEvent, Festival)</small>
+    * CreativeWork <small>(Article, Book, Movie, Episode)</small>
+    * Event <small>(BusinessEvent, ComedyEvent, Festival)</small>
     * Organization
-    * Place <small class="sublist">(Accommodation, Museum, Mountain & Volcano!)</small>
+    * Place <small>(Accommodation, Museum, Mountain & Volcano!)</small>
 
 --
-# <small>No idea if they'll do anything interesting</small>
+# No idea if they'll do anything interesting
 --
 
-# Let's take a look &hellip;
-
---
-
+### The &ldquo;How-to&rdquo;
 * Confusingly, 3 different ways to do it
-    * JSON-LD<sup>*</sup>
-    * Microdata
-    * RDF-a
-* All just markup changes - nothing *difficult*
+    * JSON-LD<sup>*</sup>, Microdata, RDF-a
+* All just markup changes - nothing *&ldquo;difficult&rdquo;*
 
-<small class="sublist"><sup>*</sup> Google's preferred option</small>
+<small><sup>*</sup> Google's preferred option</small>
 
 --
 
@@ -129,15 +119,26 @@ output: schema.html
 ![More markup](images/json-2.png)
 
 --
-
-## Really go to <strike>town</strike> the hills
-![More markup](images/json-3.png)
-
+## Add as little, or as much as you like
+## <a href="mhb.json" target="_blank">&laquo;mhb.json&raquo;</a>
 
 --
 
-* https://wordpress.org/plugins/wp-structuring-markup/
-* https://wordpress.org/plugins/schema/
+# But, but &hellip; what about WordPress ?
 
 --
-# Go forth, and mark up your metadata
+* There are a few plugins around
+* Do the basic things, WebSite, Article, BlogPost etc.
+    * [wordpress.org/plugins/wp-structuring-markup](https://wordpress.org/plugins/wp-structuring-markup/)
+    * [wordpress.org/plugins/schema](https://wordpress.org/plugins/schema/)
+* Probably recommend hand-rolling, or hand-customising
+
+--
+# Questions?
+<hr>
+## [leewillis77.github.io/schema.org](http://leewillis77.github.io/schema.org)
+<hr>
+## @leewillis77
+##[www.ademti-software.co.uk](https://www.ademti-software.co.uk)
+##[plugins.leewillis.co.uk](https://plugins.leewillis.co.uk)
+--
