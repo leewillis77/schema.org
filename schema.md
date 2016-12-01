@@ -20,7 +20,7 @@ output: schema.html
 --
 ### What is schema.org ?
 
-* Shared guidelines for semantic markup
+* Shared guidelines for **semantic** markup
 * How to mark-up / tag certain content
 * Needed because HTML doesn't give enough context
 
@@ -133,6 +133,21 @@ output: schema.html
     * [wordpress.org/plugins/schema](https://wordpress.org/plugins/schema/)
 * Probably recommend hand-rolling, or hand-customising
 
+--
+* Test your markup : [Structured data testing tool](https://search.google.com/structured-data/testing-tool/)
+    * Show what items have been picked up
+    * Suggest missing attributes
+    * Show errors with data
+
+--
+<img style="margin-top: -4em;" alt="Screenshot of structured data testing tool output" src="images/structured-testing.png">
+
+--
+
+* Track Google's crawling of it in [Google Search Console](https://www.google.com/webmasters/)
+
+--
+<img style="margin-top: -4em;" alt="Screenshot of search console tracking information" src="images/search-console.png">
 --
 # Questions?
 <hr>
