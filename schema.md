@@ -132,6 +132,7 @@ output: schema.html
     * [wordpress.org/plugins/wp-structuring-markup](https://wordpress.org/plugins/wp-structuring-markup/)
     * [wordpress.org/plugins/schema](https://wordpress.org/plugins/schema/)
 * Probably recommend hand-rolling, or hand-customising
+* Build data structure as an array, then `json_encode()`
 
 --
 * Test your markup : [Structured data testing tool](https://search.google.com/structured-data/testing-tool/)
