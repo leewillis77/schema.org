@@ -40,7 +40,7 @@ em {
 .slide-content {
     font-size: 250%;
     width: 1024px;
-    margin: 120px auto 0 auto;
+    margin: 100px auto 0 auto;
 }
 .slide-content img {
     margin: 0 auto;
@@ -48,7 +48,7 @@ em {
 }
 
 h1 {
-    margin-top: 0.2em;
+    margin-top: 0;
 }
 
 ul {
