@@ -97,7 +97,7 @@ output: schema.html
 --
 
 # A worked example
-## https://myhillblog.co.uk/
+## [https://myhill.blog/](https://myhill.blog/)
 
 --
 
